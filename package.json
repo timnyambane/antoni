@@ -1,0 +1,17 @@
+{
+  "name": "antoni",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "scss": "node-sass --watch public/styles --output public/styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-sass": "^9.0.0"
+  }
+}
