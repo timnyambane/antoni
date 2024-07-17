@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "scss": "node-sass --watch public/styles --output public/styles"
+    "scss": "sass --watch public/styles:public/styles"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,6 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
-    "node-sass": "^9.0.0"
+    "sass": "^1.54.0"
   }
 }
